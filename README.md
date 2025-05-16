@@ -11,3 +11,7 @@ In this implementation, the publisher transmits five data messages per execution
 This suggests that the publisher and subscriber are linked to the same RabbitMQ server instance, utilizing identical authentication credentials and the same network endpoint. This configuration enables seamless message exchange through a shared broker.
 
 ---
+
+### Running RabbitMQ
+![RabbitMQ](images/RunningRabbitMQ.png)
+
