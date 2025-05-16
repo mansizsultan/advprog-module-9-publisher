@@ -15,3 +15,6 @@ This suggests that the publisher and subscriber are linked to the same RabbitMQ 
 ### Running RabbitMQ
 ![RabbitMQ](images/RunningRabbitMQ.png)
 
+### Sending and Processing Event
+![Events](images/Events.png)
+When the publisher runs, it sends five data messages to the RabbitMQ server. Since the subscriber is continuously listening to the server, it captures these messages and processes them based on the specified format.
