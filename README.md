@@ -18,3 +18,7 @@ This suggests that the publisher and subscriber are linked to the same RabbitMQ 
 ### Sending and Processing Event
 ![Events](images/Events.png)
 When the publisher runs, it sends five data messages to the RabbitMQ server. Since the subscriber is continuously listening to the server, it captures these messages and processes them based on the specified format.
+
+### RabbitMQ Chart when Running the Event
+![MonitoringChart](images/MonitoringChart.png)
+The monitoring chart displays two distinct purple spikes, indicating that two messages were successfully sent and acknowledged by the consumer. This confirms that the subscriber received and processed these messages. The lack of yellow spikes suggests either minimal message publishing activity or that such events were not recorded within the chart’s observed timeframe.
